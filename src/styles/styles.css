@@ -2,10 +2,16 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1440px;
-    margin: 0px 50px 120px 50px;
+    padding: 0px 30px 120px 30px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 body {
@@ -32,7 +38,6 @@ h1 {
     font-size: 160px;
     color: white;
     line-height: 5%;
-    letter-spacing: 3%;
 }
 
 h2 {
@@ -49,7 +54,6 @@ h3 {
     font-size: 110px;
     color: white;
     margin-top: 0px;
-    letter-spacing: 3%;
     margin-bottom: 1px;
 }
 
@@ -63,12 +67,32 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.list_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: "NeutralFace";
     font-size: 30px;
     color: #E5E3E3;
     margin: 0 auto;
     width: 1200px;
     padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu:hover {
+    color: #ADADAD;
+}
+
+.end:hover {
+    color: #ADADAD;
 }
 
 a {
@@ -82,11 +106,14 @@ a {
     margin-left: 115px;
 }
 
+
 .siikira {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    margin: 180px 147px 120px 147px;
+    padding: 180px 147px 120px 147px;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 
@@ -115,7 +142,6 @@ p {
 .text2 {
     display: flex;
     justify-content: space-between;
-    align-items: top;
     margin-bottom: 30px;
 }
 
@@ -163,7 +189,9 @@ p {
 .container1 {
     margin: 0 auto;
     max-width: 1440px;
-    margin: 0px 50px 70px 50px;
+    padding: 0px 30px 70px 30px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .gif-karina {
@@ -187,7 +215,6 @@ p {
 .photograph {
     justify-content: space-between;
     display: flex;
-    align-items: top;
 }
 
 .text4 {
@@ -277,8 +304,8 @@ p {
 }
 
 .text7 {
-margin: 531px 0px 0px 0px;
-display: flex;
+    margin: 531px 0px 0px 0px;
+    display: flex;
 }
 
 .text7 p {
@@ -291,7 +318,7 @@ display: flex;
     border-radius: 30px;
 }
 
-.text_posters p{
+.text_posters p {
     margin: 0;
 }
 
@@ -299,7 +326,7 @@ display: flex;
     margin-top: 530px;
 }
 
-.text8 p{
+.text8 p {
     margin: 0;
 }
 
@@ -309,16 +336,14 @@ display: flex;
 
 .posters {
     display: flex;
-    margin: 0px 50px 120px 50px;
+    padding: 60px 0px 120px 0px;
     align-items: end;
-    margin-bottom: 120px;
+    margin: 0 auto;
 }
 
-.my_contacts h2{
+.my_contacts h2 {
     margin: 0;
 }
-
-
 
 .footer_block {
     display: flex;
@@ -329,6 +354,5 @@ display: flex;
     color: #E5E3E3;
     margin: 0 auto;
     width: 1200px;
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-

@@ -98,6 +98,7 @@ ul {
 a {
     text-decoration: none;
     color: #E5E3E3;
+    transition: 1s;
 }
 
 .photo1 {
